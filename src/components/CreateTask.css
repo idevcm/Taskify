@@ -1,0 +1,40 @@
+.task-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 600px; /* limita el ancho */
+  width: 100%;
+}
+
+.task-title {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 1px solid #d1d5da;
+  border-radius: 6px;
+  outline: none;
+  background-color: #fff;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.task-title:focus {
+  border-color: #0073b1;
+  background-color: #f3f6f9;
+}
+
+.create-btn {
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #0073b1;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.create-btn:hover {
+  background-color: #005f8d;
+}
